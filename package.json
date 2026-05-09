@@ -1,0 +1,11 @@
+{
+  "name": "Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "js-yaml": "^4.1.0"
+  }
+}
