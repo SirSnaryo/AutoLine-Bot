@@ -1,0 +1,28 @@
+TOKEN: "-" # Put your Bot Token Here
+GUILD_ID: "-" # Put your Guild ID Here, keep "-" to allow all guilds
+
+BOT_STATUS_ENABLED: false # Enable or Disable Your Custom Bot Status Here
+CREDITS_STATUS: false # Show Developer Credits Status Here
+
+BOT_STATUS_TYPE: "PLAYING" # PLAYING, WATCHING, LISTENING, COMPETING
+BOT_STATUS_TEXT: "-" # Your Custom Status Text Here
+
+LINE_FILE_NAME: "line.png" # PNG file name, must be in the same folder as index.js
+
+AUTO_LINE_CHANNELS_ENABLED: false # If true, any message in the channels below sends the line
+AUTO_LINE_CHANNEL_IDS:
+  - "000000000000000000" # Put Channel ID Here
+  - "000000000000000000" # Put Channel ID Here
+
+AUTO_LINE_WORDS_ENABLED: false # If true, message must contain one of the words below
+AUTO_LINE_WORDS:
+  - "line" # Put Trigger Word Here
+  - "tt" # Put Trigger Word Here
+
+AUTO_LINE_WHITELIST_ENABLED: false # If true, only users below can trigger the line
+AUTO_LINE_WHITELISTED_USERS:
+  - "000000000000000000" # Put User ID Here
+
+AUTO_LINE_REPLY_TO_MESSAGE: false # If true, bot replies to the message instead of normal send
+DELETE_USER_MESSAGE: false # If true, bot deletes the user message when sending the line
+AUTO_LINE_COOLDOWN: 0 # Cooldown in seconds per user, 0 = disabled
